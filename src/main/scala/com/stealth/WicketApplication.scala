@@ -6,4 +6,5 @@ class WicketApplication extends WebApplication {
   override def getHomePage = classOf[HomePage]
 
   override def init() = super.init()
+
 }
